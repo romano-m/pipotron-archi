@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<title>Le Pipotron du Product Management</title>
+	<title>Tuysses de brasses d'archi loürd</title>
 	<link href="css/bootstrap.css" rel="stylesheet" />
 	<link href="css/bootstrap-responsive.css" rel="stylesheet" />
 	<link href="css/main.css" rel="stylesheet" type='text/css' />
@@ -15,14 +15,14 @@
 <body ng-app="PipotronApp">
 	<header class="header">
 		<div class="container">
-			<h1>Le Pipotron du Product Management</h1>
+			<h1>Tuysses de brasses d'archi loürd</h1>
 		</div>
 	</header>
 	<main class="main">
 		<div class="container" ng-controller="MainController">
 			<div class="jumbotron">
 				<div class="content">
-					<h3> {{ title }} </h3>
+					<h4> {{ title }} </h4>
 					<p class="lead">"
 						<span ng-repeat="pipo in pipos" ng-click="selectPipoN(pipo.id, false)" class="text-part">
 							{{ pipo.current }}
@@ -31,17 +31,16 @@
 					</p>
 				<div class="action-buttons">
 					<span>
-		      		<button class="btn btn-lg btn-pipotron btn-large" ng-click="selectPipo(false)" role="button">Encore du pipeau !</button>
-		      		<a class="twitter-share-button btn btn-lg btn-twitter btn-large" href="https://twitter.com/intent/tweet?text={{phrase}}&via=innothiga"  target="_blank">Je Tweete mon pipeau</a>
-		      		</span>
+		      		<button class="btn btn-lg btn-pipotron btn-large" ng-click="selectPipo(false)" role="button">Plus de loürdeur !</button>
+		      		<!-- <a class="twitter-share-button btn btn-lg btn-twitter btn-large" href="https://twitter.com/intent/tweet?text={{phrase}}&via=innothiga"  target="_blank">Je Tweete mon pipeau</a>
+		      		</span> -->
 				</div>
 				</div>
 			</div>
 			<footer class="footer-content">
-				<div >
-				<h3>Vous n'y comprenez rien ?</h3>
-				<a href="http://blog.thiga.fr/glossaire/" target="_blank"><img src="https://media.giphy.com/media/k61nOBRRBMxva/giphy.gif"/></a>
-				<h4>Consultez notre <a href="http://blog.thiga.fr/glossaire/" target="_blank">Glossaire</a> !</h4>
+				<div class="img-with-text">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Amtradszaloeil.png/200px-Amtradszaloeil.png"/>
+				<p><em>Usiné par Blake 31-50 CL 208</em></p>
 				</div>
 			</footer>
 		</div>

@@ -1,5 +1,5 @@
 app.factory('piposervice', ['$http', function($http) {
-	return $http.get('https://spreadsheets.google.com/feeds/cells/1bgjjli3MmIcJGGfEyRvk4bNXYRrxzi9q3-CD9mUOhgE/od6/public/full?alt=json') 
+	return $http.get('https://spreadsheets.google.com/feeds/cells/1KlxyKWMUh7O4pkd4XDqK3FwjcKBxR5I94jugpFsah2I/od6/public/full?alt=json') 
             .success(function(data) { 
               return data; 
             }) 
