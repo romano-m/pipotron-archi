@@ -1,4 +1,11 @@
 {
   "name": "first-archi-pipotron-package",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "scripts": {
+  "start": "node pipo-v3/js/app.js"
+	},
+  "devDependencies": {
+    "@angular/cli": "^7.0.6",
+    "@angular/compiler-cli": "^7.1.0"
+  }
 }
